@@ -21,10 +21,10 @@ make a `publishable` gem that provides `publish`, `unpublish` and `pubished?` me
 
 ### Git Set Up
 
-- [ ] Fork the project into your GitHub user account
-- [ ] Clone the forked project into a directory on your machine
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
+-   [ ] Fork the project into your GitHub user account
+-   [ ] Clone the forked project into a directory on your machine
+-   [ ] Create a pull request before you start working on the project requirements. You will continuously push your updates throughout the project.
+-   [ ] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
@@ -34,6 +34,9 @@ make a `publishable` gem that provides `publish`, `unpublish` and `pubished?` me
 These are the steps you should take in order to create your MVP:
 
 1. Use bundler to generate a gem named `publishable` in a directory adjacent to your `awesome_blog` application (not inside it).
+
+    `bundle gem publishable`
+
 2. Fill out the `TODO` portions of the `.gemspec` files.
 3. Add a `publish` method to the `publishable` module (at `lib/publishable.rb`) that calls `update` with the `published_at` value set to `Time.now`.
 4. Add the `unpublish` method which will update the `published_at` value to `nil`.
